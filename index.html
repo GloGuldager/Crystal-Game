@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Play Crystal Match Game</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <!-- Game Instructions -->
+    <header>Crystal Match Game
+        <h2>The computer has generated a random number for you to match. Each crystal represents a different numeric value. As you click on the crystals, your total will increase by the numeric value of that crystal. 
+            The goal is to make your total match the computer's number.</h2>
+        <h2>If you match the number, you win! If you exceed the number, you lose :(</h2>    
+        <h2>Good luck!</h2>
+        </header>
+    <hr>
+    <div style = "text-align: center">
+    </div>
+    <hr>
+    <h1>Number to Match: <span id="number-to-match"></span></h1>
+          
+<!-- div container for crystals -->
+        <div id="crystals"></div>
+        <div id="gameInstruction">
+                <div id = "yourScore">Your Score: </div>
+                <br>
+                <div id = "wins">Wins: </div>
+                <br>
+                <div id = "losses">Losses: </div>
+                <br>
+            </div> 
+        
+</body>
+<script src="assets/javascript/game.js"></script>
+</html>
