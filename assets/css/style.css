@@ -9,8 +9,6 @@ header {
     width: 80vw;
     margin: auto;
     padding: 20px;
-    /* padding-top: 20px;
-    padding-bottom: 20px; */
     background-color: #fff;
     color: #190902;
     text-align: center;
@@ -38,24 +36,12 @@ hr {
     border-style: none;
 }
 
-.button {
-    align-items: center;
-    align-content: center;
-    height: 50px;
-    width: 70px;
-    color: #fff;
-    background-color: #190902;
-}
 #crystals {
     width: 80vw;
     margin: auto;
     height: auto;
-    /* background-color: #fff; */
     text-align: center;
     justify-content: center;
-    /* border-color: #190902;
-    border-style: solid;
-    border-width: 2px; */
 }
 
 .crystal-image {
@@ -67,11 +53,8 @@ hr {
 #gameInstruction {
     text-align: center;
     font-size: large;
-    /* padding-left: 40px; */
     padding: 20px;
-    /* padding-top: 20px; */
-
-    width: 80vw;
+    width: 50vw;
     margin: auto;
     height: auto;
     background-color: #fff;
